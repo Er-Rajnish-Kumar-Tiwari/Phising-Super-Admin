@@ -1,0 +1,195 @@
+/* .form-step{
+    width: 4em !important;
+    border: 1.5px solid #2962FF !important;
+    color:#2962FF !important;
+    cursor: pointer;
+    height: 4em !important;
+    margin: 0px 10px 0px 0px !important;
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    background-color: white !important;
+} */
+
+.form-step button:disabled{
+    border: 2px solid #999999 !important;
+}
+.form-step .active{
+
+    border: 2px solid #2962FF !important;
+
+}
+.form-step .completed{
+
+    border: 2px solid #2962FF !important;
+
+}
+
+.form-inner .active{
+
+    border: none !important;
+
+}
+
+
+/* .StepButtonContent-0-2-5{
+    color: #2962FF !important;
+    font-size: 1.3em !important;
+} */
+
+/* .StepButton-d16-0-2-54 {
+    width: 2em;
+    border: none;
+    cursor: pointer;
+    height: 2em;
+    margin: 0px;
+    display: flex;
+    padding: 0px;
+    font-size: 1em;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    background-color: rgb(224, 224, 224);
+}
+.StepButton-d16-0-2-54 .active{
+    background-color: #2962FF !important;
+} */
+
+/* 
+.ConnectorContainer-0-2-20{
+    top:28px !important;
+    right: calc(50% + 2.3em) !important;
+    left: calc(-50% + 2em  - 5px) !important;
+    border:3px solid #2962FF !important; 
+} */
+
+@media (max-width: 480px) {
+  .StepperContainer-0-2-1 {
+      padding: 12px !important; /* Even smaller padding for very small screens */
+      justify-content: center;
+      flex-direction: column !important;
+      align-items: center !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .ConnectorContainer-d0-0-2-16{
+    top:28px !important;
+    right: calc(50% +  3em  - 5px) !important;
+    left: calc(-50% + 105px) !important; 
+}
+
+.ConnectorContainer-d2-0-2-22{
+  top:28px !important;
+  right: calc(50% +  3em  - 5px) !important;
+  left: calc(-50% + 90px) !important; 
+}
+
+.ConnectorContainer-d4-0-2-28{
+  top:28px !important;
+  right: calc(50% +  3em  - 5px) !important;
+  left: calc(-50% + 55px) !important; 
+
+}
+}
+
+
+
+
+.Connector-d1-0-2-23.completed {
+    border-color: rgb(161, 3, 8);
+}
+
+.stepper-step.completed {
+    background-color: #4CAF50; /* Green for completed */
+    color: white;
+  }
+  
+  .stepper-step.active {
+    background-color: #2196F3; /* Blue for active */
+    color: white;
+  }
+
+
+
+
+
+
+
+  .form-container {
+    max-width: 1400px;
+    margin: 0 20px;
+    padding: 20px 20px 0px 20px;
+  }
+  
+  .form-content {
+    /* background: #f9f9f9; */
+    /* padding: 20px; */
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .step-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .step-content h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .step-content label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .step-content input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .error {
+    color: #f44336;
+    margin-top: 5px;
+    font-size: 0.8em;
+  }
+  
+  .form-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .btn-back, .btn-next, .btn-submit {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .btn-back {
+    background-color: #9E9E9E;
+    color: white;
+  }
+  
+  .btn-next {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .btn-submit {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .btn-back:hover, .btn-next:hover, .btn-submit:hover {
+    opacity: 0.9;
+  }
